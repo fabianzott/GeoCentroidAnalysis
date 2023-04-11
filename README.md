@@ -7,4 +7,4 @@ This skript compares all (solution, SMD(H2O)) optimized structures and sorts out
 
 Copies the 50 best by E_tot to a subfolder.
 
-Feels free to reuse some code snippets.
+Feel free to reuse some code snippets.
