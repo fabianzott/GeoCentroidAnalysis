@@ -1,10 +1,11 @@
 # GeoCentroidAnalysis
-Compares structures and sorts out dublicates by geeomtric centroid and E_tot analysis
+Compares structures and excludes dublicates by a geometric centroid and E_tot analysis
 
-During my computational projects I had to analyse hundrets of conformers with one explicit water molecule around a central fragment created by Davor Sakic's "kick" procedure: http://sw.pharma.hr/kick/
+In my computational projects, I performed the analysis of hundreds of conformers, each with an explicit water molecule positioned around a central fragment using Davor Sakic's "kick" procedure, as described at http://sw.pharma.hr/kick/.
 
-This skript compares all (solution, SMD(H2O)) optimized structures and sorts out possible doublets as well as mirror structures by comparing the geometric centroids and by using a energy cutoff value.
+The script I developed compares all the optimized structures (in solution, SMD(H2O)) and identifies potential duplicates and mirror structures. This is achieved by comparing the geometric centroids of the conformers and applying an energy cutoff value.
+
 
 Copies the 50 best by E_tot to a subfolder.
 
-Feel free to reuse some code snippets.
+Feel free to reuse some code snippets or contact me.
