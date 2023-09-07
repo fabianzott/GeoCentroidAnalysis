@@ -6,6 +6,6 @@ In my computational chemistry projects, I performed the analysis of hundreds of 
 The script I developed compares all optimized structures (in solution, SMD(H2O)) and identifies potential duplicates and mirror structures. This is achieved by comparing the geometric centroids of the conformers and applying an energy cutoff value.
 
 
-Copies the 50 best by E_tot to a subfolder.
+Copies the 10 best by E_tot to a subfolder.
 
 Feel free to reuse some code snippets or contact me.
